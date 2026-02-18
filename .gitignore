@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pt
+*.egg-info/
+.eggs/
+.venv/
+venv/
+ENV/
+
+# ROS / colcon
+build/
+install/
+log/
+data/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.zip
+*.tar.gz
+

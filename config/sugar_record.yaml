@@ -1,0 +1,14 @@
+sugar_dataset_recorder:
+  ros__parameters:
+    dataset_root: /tmp/sugar_dataset
+    instruction_topic: /task_instruction
+    pc_topic: /sugar/final_4096_cloud
+    joint_state_topic: /joint_states
+
+    base_frame: panda_link0
+    ee_frame: panda_hand_tcp     # change this to your TF ee frame if needed
+    tf_timeout_s: 0.5
+
+    gripper_joint_names: [panda_finger_joint1, panda_finger_joint2]
+    open_threshold: 0.035
+    record_on_gripper_toggle: true
